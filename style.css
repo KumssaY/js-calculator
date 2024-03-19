@@ -1,0 +1,92 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial;
+
+}
+
+.container {
+  background-color: rgb(24, 24, 24);
+  padding: 30px;
+  height: 60vh;
+  width: 40vh;
+  border-radius: 8px;
+}
+
+.input {
+  background-color: rgb(24, 24, 24);
+  border: none;
+  font-size: 30px;
+  width: 37vh;
+  height: 10vh;
+  color: white;
+  direction: ltr;
+  outline: none;
+  font-weight: bolder;
+}
+
+button {
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.container-2 {
+  display: flex;
+}
+
+.clear-delete-container {
+  display: flex;
+}
+
+.clear,
+.delete,
+.opening-brackets,
+.closing-brackets {
+  background-color: grey;
+  color: black;
+  flex-grow: 1;
+  border-radius: 100%;
+  width: 6vh;
+  height: 6vh;
+  font-weight: 500;
+  font-size: large;
+  padding: 5px;
+  text-align: center;
+}
+
+.number-btn-container {
+  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.numbBtn,
+.opBtn,
+.equals {
+  border-radius: 100%;
+  width: 8vh;
+  height: 8vh;
+}
+.numbBtn {
+  font-weight: 500;
+  font-size: larger;
+}
+.opBtn,
+.equals {
+  background-color: orange;
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.operator-btn-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.operator-btn-container .opBtn {
+  margin-top: 2px;
+}
